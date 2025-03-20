@@ -1,0 +1,258 @@
+[
+    {
+      "resourceType": "Patient",
+      "id": "harry-dan",
+      "meta": {
+        "profile": [
+          "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"
+        ]
+      },
+      "identifier": [
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org.au/CodeSystem/v2-0203",
+                "code": "DVG",
+                "display": "DVA Number (Gold Card)"
+              }
+            ],
+            "text": "DVA Number (Gold)"
+          },
+          "system": "http://ns.electronichealth.net.au/id/dva",
+          "value": "NBUR9081"
+        }
+      ],
+      "name": [
+        {
+          "text": "Mr. Dan Harry"
+        }
+      ],
+      "telecom": [
+        {
+          "system": "email",
+          "value": "dharry@example.com",
+          "use": "home"
+        }
+      ],
+      "gender": "male",
+      "address": [
+        {
+          "use": "home",
+          "line": [
+            "12 Oak Street"
+          ],
+          "city": "Sydney",
+          "state": "NSW",
+          "postalCode": "2000",
+          "country": "Australia"
+        }
+      ],
+      "urgent": true
+    },
+    {
+      "resourceType": "Patient",
+      "id": "jane-doe",
+      "meta": {
+        "profile": [
+          "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"
+        ]
+      },
+      "identifier": [
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org.au/CodeSystem/v2-0203",
+                "code": "DVG",
+                "display": "DVA Number (Gold Card)"
+              }
+            ],
+            "text": "DVA Number (Gold)"
+          },
+          "system": "http://ns.electronichealth.net.au/id/dva",
+          "value": "JDOE1023"
+        }
+      ],
+      "name": [
+        {
+          "text": "Ms. Jane Doe"
+        }
+      ],
+      "telecom": [
+        {
+          "system": "email",
+          "value": "jane.doe@example.com",
+          "use": "home"
+        }
+      ],
+      "gender": "female",
+      "address": [
+        {
+          "use": "home",
+          "line": [
+            "5 Pine Avenue"
+          ],
+          "city": "Melbourne",
+          "state": "VIC",
+          "postalCode": "3000",
+          "country": "Australia"
+        }
+      ],
+      "urgent": false
+    },
+    {
+        "resourceType": "Patient",
+        "id": "julian-doe",
+        "meta": {
+          "profile": [
+            "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org.au/CodeSystem/v2-0203",
+                  "code": "DVG",
+                  "display": "DVA Number (Gold Card)"
+                }
+              ],
+              "text": "DVA Number (Gold)"
+            },
+            "system": "http://ns.electronichealth.net.au/id/dva",
+            "value": "JDOE1023"
+          }
+        ],
+        "name": [
+          {
+            "text": "Mr. Julian Doe"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "julian.doe@example.com",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "5 Pine Avenue"
+            ],
+            "city": "New York",
+            "state": "VIC",
+            "postalCode": "3000",
+            "country": "USA"
+          }
+        ],
+        "urgent": false
+      },
+      {
+        "resourceType": "Patient",
+        "id": "kylian-doe",
+        "meta": {
+          "profile": [
+            "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org.au/CodeSystem/v2-0203",
+                  "code": "DVG",
+                  "display": "DVA Number (Gold Card)"
+                }
+              ],
+              "text": "DVA Number (Gold)"
+            },
+            "system": "http://ns.electronichealth.net.au/id/dva",
+            "value": "JDOE1023"
+          }
+        ],
+        "name": [
+          {
+            "text": "Mr. Kylian Doe"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "kylian.doe@example.com",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "1 Maple Avenue"
+            ],
+            "city": "Madrid",
+            "state": "VIC",
+            "postalCode": "3000",
+            "country": "Spain"
+          }
+        ],
+        "urgent": true
+      },
+      {
+        "resourceType": "Patient",
+        "id": "adam-doe",
+        "meta": {
+          "profile": [
+            "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org.au/CodeSystem/v2-0203",
+                  "code": "DVG",
+                  "display": "DVA Number (Gold Card)"
+                }
+              ],
+              "text": "DVA Number (Gold)"
+            },
+            "system": "http://ns.electronichealth.net.au/id/dva",
+            "value": "JDOE1023"
+          }
+        ],
+        "name": [
+          {
+            "text": "Mr Adam Doe"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "jane.doe@example.com",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "5 Pine Avenue"
+            ],
+            "city": "Melbourne",
+            "state": "VIC",
+            "postalCode": "3000",
+            "country": "Australia"
+          }
+        ],
+        "urgent": false
+      }
+  ]
+  
