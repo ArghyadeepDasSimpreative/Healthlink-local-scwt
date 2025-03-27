@@ -5,13 +5,12 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function IncludeArchived() {
     return (
-        <div className="w-full max-w-md border border-gray-300 shadow-md p-0">
-            <div className="flex justify-between items-center p-2 border-b border-gray-300">
-                <div className="font-semibold text-sm !important">Include Archived</div>
+        <div className="w-full max-w-md border border-gray-300 p-0">
+            <div className="flex justify-between items-center px-[20px] py-[10px] border-b border-gray-300">
+                <div className="font-semibold text-sm text-[#202224]">Include Archived</div>
                 <IoIosArrowDown className="" />
             </div>
-            <div className="p-2 flex flex-col !gap-2 bg-white">
-
+            <div className="px-[20px] py-[12px] flex flex-col !gap-2 bg-white">
                 <div className="flex justify-between w-full items-center">
                     <input
                         type="text"
@@ -21,11 +20,13 @@ export default function IncludeArchived() {
                             border: '1px solid #D5D5D5',
                             backgroundColor: '#F5F6FA',
                             width: '80%',
+                            color:"#282828",
                             textAlign: 'center',
-                            fontSize: '0.875rem', // Equivalent to text-sm in Tailwind
-                            padding: '4px', // Equivalent to p-1 in Tailwind
+                            fontSize: '14px', // Equivalent to text-sm in Tailwind
+                            padding: '4px',
+                            outline:'none', // Equivalent to p-1 in Tailwind
                             '::placeholder': {
-                                color: '#D5D5D5',
+                                color: '#999999',
                             },
                         }}
                     />
@@ -33,7 +34,7 @@ export default function IncludeArchived() {
 
 
                     <FaSearch className="text-blue-600 cursor-pointer" size={18} />
-                    <HiMenuAlt3 className="text-blue-600 cursor-pointer" size={18} />
+                    <HiMenuAlt3 className="text-blue-600 cursor-pointer" size={25} />
                 </div>
                 <div className="flex items-center justify-start !gap-1">
                     <div className="flex items-center !bg-[#BED6FA] !text-blue-600 px-2 py-1 !text-xs !font-medium h-full">

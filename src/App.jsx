@@ -27,9 +27,11 @@ import ClinicLocationsPage from './pages/clinic-locations';
 import Layout from './layout';
 import WorkListPage from './pages/worklist';
 
+import WorklistTable from "./pages/worklist-table";
+
 function App() {
 
-  return <Layout><WorkListPage />
+  return <Layout><PatientPageDemoTwo />
   <Toaster /></Layout>
 }
 
