@@ -7,6 +7,7 @@ import { GoPaperclip } from "react-icons/go";
 import RightPanelNew from "./RightPanelNew";
 import RedCount from "../../components/RedCount";
 import IncludeArchived from "../patient-page-demo/SearchBox";
+import { Skeleton } from "@mui/material";
 
 const PatientPageDemoTwo = () => {
     const [patientData, setPatientData] = useState([]);
@@ -187,7 +188,13 @@ const PatientPageDemoTwo = () => {
                 <div className="flex flex-col justify-between gap-6 w-[400px]">
                     <IncludeArchived />
                     <div className="flex flex-col gap-0 items-center justify-start">
-                        {loading && <p className="text-gray-500">Loading patients...</p>}
+                        {loading &&
+                            [1, 2, 3, 4, 5, 6, 7, 8, 9, 0].map(item =>
+                                <div className="h-[70px] w-[400px] mb-1">
+                                    <Skeleton variant="rounded" width={"100%"} height={"100%"} />
+                                </div>
+
+                            )}
                         {error && <p className="text-red-500">{error}</p>}
                         {!loading && !error && patientList}
                     </div>
@@ -198,11 +205,8 @@ const PatientPageDemoTwo = () => {
                             <div className="flex w-full bg-white rounded-md p-4 border border-gray-200">Please select a patient to see the details</div>
                             :
                             <RightPanelNew patientDetails={selectedPatient} />
-                        // <div>hi</div>
                     }
                 </div>
-
-
             </div>
         </div>
     );

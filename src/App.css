@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'TWKEverettBlack';
+    src: url('./assets/fonts/TWKEverett-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettBlackItalic';
+    src: url('./assets/fonts/TWKEverett-BlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettBold';
+    src: url('./assets/fonts/TWKEverett-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettExtrabold';
+    src: url('./assets/fonts/TWKEverett-Extrabold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettHairline';
+    src: url('./assets/fonts/TWKEverett-Hairline.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettLight';
+    src: url('./assets/fonts/TWKEverett-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettMedium';
+    src: url('./assets/fonts/TWKEverett-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettRegular';
+    src: url('./assets/fonts/TWKEverett-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettSuper';
+    src: url('./assets/fonts/TWKEverett-Super.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettThin';
+    src: url('./assets/fonts/TWKEverett-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TWKEverettUltralight';
+    src: url('./assets/fonts/TWKEverett-Ultralight.otf') format('opentype');
+}
+
+/* Utility Classes */
+.font-twk-everett-black {
+    font-family: 'TWKEverettBlack', sans-serif;
+}
+
+.font-twk-everett-black-italic {
+    font-family: 'TWKEverettBlackItalic', sans-serif;
+}
+
+.font-twk-everett-bold {
+    font-family: 'TWKEverettBold', sans-serif;
+}
+
+.font-twk-everett-extrabold {
+    font-family: 'TWKEverettExtrabold', sans-serif;
+}
+
+.font-twk-everett-hairline {
+    font-family: 'TWKEverettHairline', sans-serif;
+}
+
+.font-twk-everett-light {
+    font-family: 'TWKEverettLight', sans-serif;
+}
+
+.font-twk-everett-medium {
+    font-family: 'TWKEverettMedium', sans-serif;
+}
+
+.font-twk-everett-regular {
+    font-family: 'TWKEverettRegular', sans-serif;
+}
+
+.font-twk-everett-super {
+    font-family: 'TWKEverettSuper', sans-serif;
+}
+
+.font-twk-everett-thin {
+    font-family: 'TWKEverettThin', sans-serif;
+}
+
+.font-twk-everett-ultralight {
+    font-family: 'TWKEverettUltralight', sans-serif;
+}
+body {
+    font-family: 'TWKEverettLight';
+}
